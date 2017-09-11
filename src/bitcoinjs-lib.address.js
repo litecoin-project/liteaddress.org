@@ -7,7 +7,7 @@ Bitcoin.Address = function (bytes) {
 	this.version = Bitcoin.Address.networkVersion;
 };
 
-Bitcoin.Address.networkVersion = 0x30; // mainnet
+Bitcoin.Address.networkVersion = 0x2b; // mainnet
 
 /**
 * Serialize this object as a standard Bitcoin address.
